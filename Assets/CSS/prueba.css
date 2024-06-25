@@ -1,0 +1,42 @@
+.contenedor{
+width: 100%;
+background-color: blueviolet;
+padding: 5px;
+}
+
+.principal{
+width: 22%;
+height: 22%;
+background-color: rgb(81, 190, 76);
+padding: 20px;
+float: left;
+margin: 1px;
+border-radius: 10px;
+border-style: solid;
+border-color: rgb(26, 38, 34);
+border-width: 2px;}
+
+.principal2{
+width: 22%;
+background-color: antiquewhite;
+padding: 2px;
+float: left;
+margin: 1px;
+padding: 1px;
+border-radius: 10px;
+border-style: solid;
+border-color: rgb(26, 38, 34);
+border-width: 2px;}
+
+.principal3{
+width: 22%;
+background-color: rgb(36, 96, 207);
+padding: 2px;
+float: left;
+margin: 1px;
+padding: 1px;
+border-radius: 10px;
+border-style: solid;
+border-color: rgb(26, 38, 34);
+border-width: 2px;}
+

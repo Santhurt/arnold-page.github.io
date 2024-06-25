@@ -1,0 +1,217 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+
+
+h1{
+
+color: rgb(255, 255, 255); /* color de frente*/
+background-color: rgb(43, 14, 14); /*color de fondo de la caja*/
+padding: 5px; /*color del marco interno*/
+text-align: center; /*alinieacion del texto contenido en la caja*/
+border: solid rgb(250, 4, 4); /*estilo borde y color*/
+border-width: 5px; /**/
+border-style: outset;
+border-color: rgb(216, 136, 136);
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 50px;
+
+}
+
+h2{
+    background-color: rgb(45, 45, 46);
+    text-align: center;
+    border-style:outset;
+    border-color: rgb(42, 44, 46);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+    font-size: 30px;
+   
+}
+
+p{
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+body{background-color: rgb(0, 0, 0);}
+
+.especial{
+background-color: bisque;}
+
+
+.cabezera {
+    text-align: center;
+}
+
+
+/*diagramacion de sitio*/
+
+.contenedor{
+/*width: 1000px; medida absoluta*/
+height:700px;
+
+margin: 0 auto; /*centra el contenedor*/
+padding: 2px;
+;
+}
+
+.principal{
+width: 55%; 
+float: left;
+padding: 10px;
+border-style: solid;
+border-width: 1px;
+border-color: gray;
+color: white;
+margin: 5px;
+} /*noc */
+
+.lateral{
+width: 40%;
+float: left;
+border-style: solid;
+border-width: 1px;
+border-color: gray;
+color: white;
+margin: 5px;
+padding: 10px;}
+
+.principal img{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(105, 106, 107);
+    object-position: center;
+}
+
+.lateral img{
+    width: 95%;
+    padding: 5px;
+    background-color: rgb(105, 106, 107);
+    
+}
+
+.lateral img{
+    width: 95%;
+    padding: 5px;
+    background-color: rgb(105, 106, 107);
+    
+}
+
+
+.pie_pagina{
+padding: 20px;
+background-color: rgb(9, 10, 10);
+color: rgb(236, 230, 230);
+clear: both;
+height: 150px;
+font-family: 'Courier New', Courier, monospace;
+}
+/*diagramacion del menu*/
+
+.menu{
+background-color: rgb(20, 20, 20);
+padding: 5px;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-style: solid;
+border-color: gray;
+border-width: 1px;
+
+
+
+}
+
+.menu ul li{
+display: inline;
+padding: 10px;
+list-style: none;
+border-style: outset;
+margin-left: 10px;
+border-color: rgb(216, 136, 136);
+border-width: 2px;
+border-radius: 10px;
+background-color: rgb(43, 14, 14);
+box-shadow: 2px 5px;
+color: rgb(70, 72, 73);
+
+
+}
+
+.menu ul li a{
+text-decoration:  none;
+color: white;
+}
+
+/*esta es usando una pseudoclase de css*/
+
+.menu ul li a:hover{
+color: red;
+font-size: 1.5em; /*esta es una medida relativa para fuentes*/}
+
+
+.info{
+    float: left;
+    width: 45%;
+}
+
+.rsocial{
+    float: left;
+    width: 45%;
+}
+
+
+
+input{
+
+    background-color: rgb(45, 49, 48);
+    padding: 5px;
+    margin: 5px;
+}
+
+.imagen_input{
+    width: 300px;
+}
+
+table{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    
+}
+
+textarea{
+    background-color: rgb(43, 42, 42);
+}
+
+input:hover{
+background-color: rgb(70, 70, 69);
+}
+
+textarea:hover{
+    background-color: rgb(70, 70, 69);
+    
+}
+
+
+
+
+
+
+
